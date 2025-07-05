@@ -8,14 +8,10 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler,LabelEncoder
-from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score, root_mean_squared_error
 from getData import getData
 
-
-
 data = getData()
-
 
 X = np.array(data.drop(['price'], axis = 1))
 Y = np.array(data['price'])
