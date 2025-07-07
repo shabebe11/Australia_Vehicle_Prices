@@ -46,19 +46,19 @@ Baseline model: Linear Regression
 
 **Training Performance**
 
-R²: 0.6005
+R²: ~0.6
 
-MAE: 7476.02 AUD
+MAE: ~7476 AUD
 
-RMSE: 9774.46 AUD
+RMSE: ~9774 AUD
 
 **Test Performance**
 
-R²: 0.6159
+R²: ~0.62
 
-MAE: 7688.93 AUD
+MAE: ~7688 AUD
 
-RMSE: 9971.73 AUD
+RMSE: ~9972 AUD
 
 These results show moderate performance, with similar metrics across training and test sets. While the model captures some trends in pricing, high RMSE values suggest there is still significant variance in prediction accuracy—likely due to the complexity and non-linearity of real-world pricing patterns.
 
